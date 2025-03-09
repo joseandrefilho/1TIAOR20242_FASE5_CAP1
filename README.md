@@ -149,8 +149,8 @@ Se os pontos estiverem próximos dessa linha, significa que o modelo fez previs�
 - **Com Clusterização:** O modelo leva em conta a segmentação em clusters para suas previsões.
 - **Sem Clusterização:** O modelo trabalha sem essa informação adicional.
 
-<img src="images/graficos_resultados/Random%20Forest_dispersao_Com_Cluster.png" alt="Random Forest - Com Cluster" width="50%">
-<img src="images/graficos_resultados/Random%20Forest_dispersao_Sem_Cluster.png" alt="Random Forest - Sem Cluster" width="50%">
+![Random Forest - Com Cluster](images/graficos_resultados/Random%20Forest_dispersao_Com_Cluster.png)
+![Random Forest - Sem Cluster](images/graficos_resultados/Random%20Forest_dispersao_Sem_Cluster.png)
 
 ✅ **Análise:** O modelo Random Forest teve previsões bastante alinhadas com os valores reais, o que indica um **ótimo desempenho**.
 
@@ -159,8 +159,9 @@ Se os pontos estiverem próximos dessa linha, significa que o modelo fez previs�
 #### Regressão Linear
 Agora, analisamos o desempenho do modelo **Regressão Linear**, que tenta encontrar uma relação linear entre as variáveis para prever os rendimentos.
 
-<img src="images/graficos_resultados/Regressão%20Linear_dispersao_Com_Cluster.png" alt="Regressão Linear - Com Cluster" width="50%">
-<img src="images/graficos_resultados/Regressão%20Linear_dispersao_Sem_Cluster.png" alt="Regressão Linear - Sem Cluster" width="50%">
+![Regressão Linear - Com Cluster](images/graficos_resultados/Regressão%20Linear_dispersao_Com_Cluster.png)
+![Regressão Linear - Sem Cluster](images/graficos_resultados/Regressão%20Linear_dispersao_Sem_Cluster.png)
+
 
 ✅ **Análise:** A Regressão Linear também teve um desempenho bom, mas ligeiramente inferior ao Random Forest.  
 Observamos que alguns pontos se afastam mais da linha vermelha, indicando erros um pouco maiores.
@@ -180,8 +181,8 @@ Os gráficos abaixo mostram **os erros residuais** de cada modelo, ou seja, **a 
 #### Random Forest  
 Os gráficos abaixo mostram os erros do modelo **Random Forest** em ambos os cenários.
 
-<img src="images/graficos_resultados/Random%20Forest_residuos_Com_Cluster.png" alt="Random Forest - Com Cluster" width="50%">
-<img src="images/graficos_resultados/Random%20Forest_residuos_Sem_Cluster.png" alt="Random Forest - Sem Cluster" width="50%">
+![Random Forest - Com Cluster](images/graficos_resultados/Random%20Forest_residuos_Com_Cluster.png)
+![Random Forest - Sem Cluster](images/graficos_resultados/Random%20Forest_residuos_Sem_Cluster.png)
 
 ✅ **Análise:** A maioria dos erros está próxima de **zero**, o que indica que **o modelo teve poucos erros grandes**.  
 Isso reforça que **o Random Forest foi o melhor modelo para prever o rendimento das safras**.
@@ -191,8 +192,8 @@ Isso reforça que **o Random Forest foi o melhor modelo para prever o rendimento
 #### Regressão Linear  
 Os gráficos abaixo mostram os erros do modelo **Regressão Linear**.
 
-<img src="images/graficos_resultados/Regressão%20Linear_residuos_Com_Cluster.png" alt="Regressão Linear - Com Cluster" width="50%">
-<img src="images/graficos_resultados/Regressão%20Linear_residuos_Sem_Cluster.png" alt="Regressão Linear - Sem Cluster" width="50%">
+![Regressão Linear - Com Cluster](images/graficos_resultados/Regressão%20Linear_residuos_Com_Cluster.png)
+![Regressão Linear - Sem Cluster](images/graficos_resultados/Regressão%20Linear_residuos_Sem_Cluster.png)
 
 ✅ **Análise:** A Regressão Linear teve mais dispersão nos erros, indicando que **suas previsões não foram tão precisas quanto as do Random Forest**.  
 Ainda assim, os erros não foram tão extremos, tornando-a uma alternativa viável.
