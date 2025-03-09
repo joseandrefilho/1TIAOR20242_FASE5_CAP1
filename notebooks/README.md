@@ -66,18 +66,19 @@ Este projeto utiliza **Machine Learning** para prever o **rendimento da safra ag
 
 ## **📌 Como Executar o Projeto**  
 
-1️⃣ **Clone este repositório:**  
+1️⃣ **Clone o repositório:**  
 ```bash
 git clone https://github.com/joseandrefilho/1TIAOR20242_FASE5_CAP1.git
 cd 1TIAOR20242_FASE5_CAP1
 ```
 
-2️⃣ **Abra o notebook no VS Code ou Colab**  
-3️⃣ **Instale dependências (caso necessário):**  
+2️⃣ **Instale as dependências:**  
 ```bash
 pip install -r requirements.txt
 ```
-4️⃣ **Execute as células do notebook em sequência.**  
+
+3️⃣ **Abra o notebook no VS Code ou Google Colab.**  
+4️⃣ **Execute as células do notebook na ordem indicada.**  
 
 ---
 
