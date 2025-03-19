@@ -59,7 +59,7 @@ Caso seja necessário armazenar os dados dos sensores dentro do Brasil, a **úni
 ## 🎥 Vídeo Explicativo
 Gravamos um vídeo demonstrando a comparação de preços na **AWS Pricing Calculator** e a justificativa para a escolha da região.
 
-🔗 **Link do vídeo (YouTube - Não Listado):** [AWS Pricing Calculator Estimate](https://calculator.aws/#/estimate?id=06b0d482c1c4ee147ea55e11cd767960484f0f93)
+🔗 **Link do vídeo (YouTube - Não Listado):** [AWS Pricing Calculator Estimate](https://youtu.be/7RLpFtR7zSs)
 
 ---
 
